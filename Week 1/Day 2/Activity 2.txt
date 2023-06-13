@@ -1,0 +1,8 @@
+Describe what is casting in java datatypes? 
+In Java, casting refers to the process of converting a value from one data type to another. It allows you to treat a variable of one type as if it were another type, under certain conditions.
+
+Describe and explain the two types of casting available in primitive data types?
+Implicit Casting (Widening):
+Implicit casting occurs when you assign a value of a smaller data type to a variable of a larger data type. Java automatically performs this casting because there is no risk of losing information.
+Explicit Casting (Narrowing):
+Explicit casting is required when you assign a value of a larger data type to a variable of a smaller data type. It involves a manual conversion and can potentially result in a loss of information. You need to explicitly specify the desired type in parentheses before the value.

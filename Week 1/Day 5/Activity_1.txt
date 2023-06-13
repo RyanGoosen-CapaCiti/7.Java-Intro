@@ -1,0 +1,19 @@
+Explain the difference between Access Modifiers and Non Access Modifiers
+    Access Modifiers: Access modifiers in Java determine the accessibility or visibility of classes, methods, attributes, and other members within a program
+    Non Access Modifiers: Non-access modifiers in Java provide additional information or functionality to classes, methods, attributes, and other members
+
+What the access modifiers available in java and describe their access levels
+    public: This access modifier allows unrestricted access to the class, method, or attribute from any other part of the program, including other packages
+    protected: Members with the protected access modifier are accessible within the same package as well as in subclasses (even if they are in different packages).
+    private: The private access modifier restricts the accessibility of a member to within the same class
+    Default (no explicit modifier): If no access modifier is specified, the member is considered to have default access
+
+What the Non Access Modifiers for classes in java
+    Indicates that the class cannot be inherited or extended by any other class.
+    Abstract classes cannot be instantiated directly and are typically used as base classes for other classes
+
+What the Non Access Modifiers for attributes and method in java
+    Static
+    Final
+    Synchronized
+    Transient

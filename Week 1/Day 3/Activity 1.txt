@@ -1,0 +1,4 @@
+Modularity and Reusability: Code can be reused without having to retype it
+Code Organization: Code that work together can br grouped in a class with similar code
+Inheritance: Falls under reuseability as you can just call a class that has all the same things you want to use into a different class
+Maintainability and Scalability: As the code is grouped it can easily be changed

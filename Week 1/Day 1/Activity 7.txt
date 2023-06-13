@@ -1,0 +1,13 @@
+Package statement
+package com.cititraining.edu.firstjava;
+
+Import statement
+import java.io.*;
+
+Method declaration
+public void printHelloWorld() {
+   System.out.println("Hello World");
+}
+
+Method call
+printHelloWorld();
