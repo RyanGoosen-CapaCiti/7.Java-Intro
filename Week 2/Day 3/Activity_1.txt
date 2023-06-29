@@ -1,0 +1,28 @@
+    Git Diff:
+        git diff is a command that shows the differences between the current working directory and the staging area (index) or between two commits.
+        It displays the added, modified, and deleted lines or files in a unified diff format.
+        git diff without any arguments shows the changes between the working directory and the staging area.
+        git diff --staged or git diff --cached shows the changes between the staging area and the last commit.
+        git diff commit1 commit2 compares two specific commits and shows the differences between them.
+
+    Git Status:
+        git status is a command that displays the current status of the repository.
+        It shows which files are modified, staged, or untracked.
+        git status provides information on the branch you are on, any changes that need to be committed or staged, and other helpful messages like suggestions for resolving conflicts or updating the repository.
+
+    Git Revert:
+        git revert is used to undo a previous commit by creating a new commit that undoes the changes made in the specified commit.
+        It does not modify the existing commit history but adds a new commit that undoes the changes in a backward manner.
+        Reverting is a safe way to undo commits, especially on shared branches, as it maintains the integrity of the commit history.
+
+    Git Reset:
+        git reset is used to move the branch pointer to a specific commit, effectively resetting the branch to that commit.
+        It allows you to remove commits from the branch's history and modify the staging area and working directory accordingly.
+        git reset has different modes, such as --soft, --mixed, and --hard, which determine the extent of changes applied to the staging area and working directory.
+        Be cautious when using git reset on shared branches, as it can cause conflicts for other users who have based their work on the commits being reset.
+
+    Git Rm:
+        git rm is used to remove a file from both the working directory and the Git repository.
+        It stages the file for deletion, and the deletion will be reflected in the next commit.
+        git rm also has options like --cached to remove the file only from the repository but keep it in the working directory.
+        After using git rm, the file will no longer be tracked by Git, and it will be completely removed in the next commit.

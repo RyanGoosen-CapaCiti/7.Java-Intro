@@ -1,0 +1,9 @@
+Advantages:
+    It eases the development processes
+    Makes it ease to find and track errors
+    V model is straightforward to use and the architecture is cadid which is a plus point in its design
+
+Disadvantages:
+    Its a hard model to execute compared to other software
+    It has a regid structure making flexibility limited and making it overall not suitable for object oriented software
+    Management of the V model is pretty risky and unstable

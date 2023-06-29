@@ -1,0 +1,30 @@
+1. Compare and contrast `git fetch` and `git pull` operations:
+   - `git fetch`: Retrieves the latest changes from a remote repository but does not automatically merge them with the local branch. It updates the remote tracking branches in your local repository.
+   - `git pull`: Retrieves the latest changes from a remote repository and automatically merges them with the current branch. It essentially performs a `git fetch` followed by a `git merge` of the fetched changes.
+
+   Differences:
+   - `git fetch` only updates the remote tracking branches, allowing you to review and inspect the changes before merging them manually.
+   - `git pull` automatically merges the fetched changes into the current branch, immediately incorporating them into the local branch.
+
+   When to use one over the other:
+   - Use `git fetch` when you want to see the changes made in the remote repository without immediately merging them. It gives you the opportunity to review the changes and decide how to incorporate them.
+   - Use `git pull` when you want to quickly update your local branch with the latest changes from the remote repository and automatically merge them.
+
+2. Git squash:
+   - Git squash is a technique used to combine multiple commits into a single, more meaningful commit.
+   - It allows you to condense a series of small, incremental commits into a larger commit, making the commit history cleaner and easier to understand.
+   - Squashing commits can be done during an interactive rebase or by using the `git merge --squash` command.
+   - Squashed commits retain the changes introduced by the individual commits but present them as a single commit without intermediate commit messages.
+
+3. Git rebase:
+   - Git rebase is a command used to modify the commit history by moving, combining, or deleting commits.
+   - It allows you to apply a series of commits from one branch onto another branch, resulting in a linear commit history.
+   - During a rebase, Git identifies the common ancestor of the two branches, replays the commits from the source branch on top of the target branch, and updates the branch pointer accordingly.
+   - Interactive rebase (`git rebase -i`) enables you to interactively edit, reorder, squash, or drop commits to shape the commit history.
+
+4. What does merge achieve and how do merge conflicts arise and are they resolved:
+   - Git merge combines changes from different branches into a single branch, creating a new merge commit.
+   - Merge conflicts arise when Git encounters conflicting changes in the files being merged. Conflicts can occur when two or more branches have made conflicting modifications to the same lines or files.
+   - Git provides markers in the conflicting files to indicate the conflicting sections. It's then up to the user to manually resolve the conflicts by editing the files to incorporate the desired changes.
+   - Conflict resolution involves carefully reviewing the conflicting changes, making decisions on which changes to keep, modifying the files accordingly, and marking the conflicts as resolved.
+   - Once the conflicts are resolved, the changes are staged, and a new commit is created to finalize the merge operation.

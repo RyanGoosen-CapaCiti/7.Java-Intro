@@ -1,0 +1,15 @@
+Why do we need Design Patterns?
+To solve common design problems.
+
+What is a Design Patterns?
+Reusable solutions for design problems.
+
+Benefits of Design Patterns?
+Modularity, reusability, maintainability, extensibility.
+
+Types of Design Patterns?
+Creational, structural, behavioral.
+
+Design Patterns Best Practices?
+Understand the problem, choose appropriate pattern, apply principles, document properly.
+

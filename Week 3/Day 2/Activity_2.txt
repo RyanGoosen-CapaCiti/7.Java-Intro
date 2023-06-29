@@ -1,0 +1,9 @@
+Advantages:
+    Simple and easy to use
+    Easy to manage
+    Clearly defined stages
+
+Disadvantages:
+    High amount of risk and uncertainty
+    Poor model for long and ongoing projects
+    Cannot accommodate changing requirements
